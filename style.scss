@@ -43,8 +43,8 @@
                             input {
                                 border-radius: 0;
                                 outline: none;
+                                border: none;
                                 &:active, &:focus {
-                                    border-color: #ccc;
                                     box-shadow: none;
                                 }
                             }
@@ -55,8 +55,8 @@
                             textarea {
                                 border-radius: 0;
                                 outline: none;
+                                border: none;
                                 &:active, &:focus {
-                                    border-color: #ccc;
                                     box-shadow: none;
                                 }
                             }
@@ -122,19 +122,22 @@
                         font-size: 1.5em;
                         margin: 0 0 1em 0;
                     }
-                    .social-icons {
-                        padding: 0;
-                        list-style: none;
-                        display: inline;
-                        li {
+                    .social {
+                        text-align: center;
+                        .social-icons {
+                            padding: 0;
+                            list-style: none;
                             display: inline;
-                            padding: 0 1em;
-                            a {
-                                &:hover {
-                                    text-decoration: none;
-                                }
-                                img {
-                                    max-width: 25px;
+                            li {
+                                display: inline;
+                                padding: 0 1em;
+                                a {
+                                    &:hover {
+                                        text-decoration: none;
+                                    }
+                                    img {
+                                        max-width: 25px;
+                                    }
                                 }
                             }
                         }

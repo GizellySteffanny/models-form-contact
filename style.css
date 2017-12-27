@@ -29,15 +29,15 @@
           color: #046359; }
         #contact-us .wrapper .grid .contact-form .body-form .grid-two .form-group input {
           border-radius: 0;
-          outline: none; }
+          outline: none;
+          border: none; }
           #contact-us .wrapper .grid .contact-form .body-form .grid-two .form-group input:active, #contact-us .wrapper .grid .contact-form .body-form .grid-two .form-group input:focus {
-            border-color: #ccc;
             box-shadow: none; }
       #contact-us .wrapper .grid .contact-form .body-form .grid-one .form-group textarea {
         border-radius: 0;
-        outline: none; }
+        outline: none;
+        border: none; }
         #contact-us .wrapper .grid .contact-form .body-form .grid-one .form-group textarea:active, #contact-us .wrapper .grid .contact-form .body-form .grid-one .form-group textarea:focus {
-          border-color: #ccc;
           box-shadow: none; }
       #contact-us .wrapper .grid .contact-form .body-form .grid-one .form-submit {
         text-align: right; }
@@ -83,16 +83,18 @@
         color: #ffffff;
         font-size: 1.5em;
         margin: 0 0 1em 0; }
-      #contact-us .wrapper .grid .contact-info .contact-info-header .social-icons {
-        padding: 0;
-        list-style: none;
-        display: inline; }
-        #contact-us .wrapper .grid .contact-info .contact-info-header .social-icons li {
-          display: inline;
-          padding: 0 1em; }
-          #contact-us .wrapper .grid .contact-info .contact-info-header .social-icons li a:hover {
-            text-decoration: none; }
-          #contact-us .wrapper .grid .contact-info .contact-info-header .social-icons li a img {
-            max-width: 25px; }
+      #contact-us .wrapper .grid .contact-info .contact-info-header .social {
+        text-align: center; }
+        #contact-us .wrapper .grid .contact-info .contact-info-header .social .social-icons {
+          padding: 0;
+          list-style: none;
+          display: inline; }
+          #contact-us .wrapper .grid .contact-info .contact-info-header .social .social-icons li {
+            display: inline;
+            padding: 0 1em; }
+            #contact-us .wrapper .grid .contact-info .contact-info-header .social .social-icons li a:hover {
+              text-decoration: none; }
+            #contact-us .wrapper .grid .contact-info .contact-info-header .social .social-icons li a img {
+              max-width: 25px; }
 
 /*# sourceMappingURL=style.css.map */
