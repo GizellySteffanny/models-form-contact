@@ -110,8 +110,13 @@
                         li {
                             display: inline;
                             padding: 0 1em;
-                            img {
-                                max-width: 25px;
+                            a {
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                                img {
+                                    max-width: 25px;
+                                }
                             }
                         }
                     }

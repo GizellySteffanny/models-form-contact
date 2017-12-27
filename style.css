@@ -75,7 +75,9 @@
         #contact-us .wrapper .grid .contact-info .contact-info-header .social-icons li {
           display: inline;
           padding: 0 1em; }
-          #contact-us .wrapper .grid .contact-info .contact-info-header .social-icons li img {
+          #contact-us .wrapper .grid .contact-info .contact-info-header .social-icons li a:hover {
+            text-decoration: none; }
+          #contact-us .wrapper .grid .contact-info .contact-info-header .social-icons li a img {
             max-width: 25px; }
 
 /*# sourceMappingURL=style.css.map */
