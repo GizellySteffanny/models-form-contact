@@ -28,13 +28,15 @@
         #contact-us .wrapper .grid .contact-form .body-form .grid-two .form-group label {
           color: #046359; }
         #contact-us .wrapper .grid .contact-form .body-form .grid-two .form-group input {
-          border-radius: 0;
+          background-color: #d8f6f6;
+          border-radius: .2em;
           outline: none;
           border: none; }
           #contact-us .wrapper .grid .contact-form .body-form .grid-two .form-group input:active, #contact-us .wrapper .grid .contact-form .body-form .grid-two .form-group input:focus {
             box-shadow: none; }
       #contact-us .wrapper .grid .contact-form .body-form .grid-one .form-group textarea {
-        border-radius: 0;
+        background-color: #d8f6f6;
+        border-radius: .2em;
         outline: none;
         border: none; }
         #contact-us .wrapper .grid .contact-form .body-form .grid-one .form-group textarea:active, #contact-us .wrapper .grid .contact-form .body-form .grid-one .form-group textarea:focus {

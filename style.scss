@@ -41,7 +41,8 @@
                                 color: $teal;
                             }
                             input {
-                                border-radius: 0;
+                                background-color: $cadeGreen;
+                                border-radius: .2em;
                                 outline: none;
                                 border: none;
                                 &:active, &:focus {
@@ -53,7 +54,8 @@
                     .grid-one {
                         .form-group {
                             textarea {
-                                border-radius: 0;
+                                background-color: $cadeGreen;
+                                border-radius: .2em;
                                 outline: none;
                                 border: none;
                                 &:active, &:focus {
